@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="400" height="400" viewBox="0 0 400 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.2</desc>
+<defs>
+</defs>
+<g transform="matrix(16.67 0 0 16.67 200 200)" id="half-moon"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: evenodd; opacity: 1;"  transform=" translate(-16, -16)" d="M 16 22 C 12.6862913 22 10 19.3137087 10 16 C 10 12.6862913 12.6862913 10 16 10 C 19.3137087 10 22 12.6862913 22 16 C 22 19.3137087 19.3137087 22 16 22 L 16 22 Z M 16 21 L 16 16 L 16 11 C 18.7614237 11 21 13.2385763 21 16 C 21 18.7614237 18.7614237 21 16 21 L 16 21 Z" stroke-linecap="round" />
+</g>
+</svg>
