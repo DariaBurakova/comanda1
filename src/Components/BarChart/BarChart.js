@@ -1,4 +1,5 @@
 import React from 'react';
+import './chart.css';
 import { Bar, defaults } from 'react-chartjs-2';
 
 defaults.global.tooltips.enabled = false;
@@ -6,15 +7,15 @@ defaults.global.legend.position = 'bottom';
 
  const BarChart = () => {
 	return (
-		<div className='row'>
-		<div className='col-4'></div>
-		<div className='col-8'>
+		<div className='row align-items-center'>
+		<div className='col-2'></div>
+		<div className='col-6 graph-style'>
 			<Bar
 				data={{
 					labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
 					datasets: [
 						{
-							label: '# of votes',
+							labels: [],
 							data: [12, 19, 3, 5, 2, 3],
 							backgroundColor: [
 								'rgba(255, 99, 132, 0.2)',
@@ -33,13 +34,7 @@ defaults.global.legend.position = 'bottom';
 								'rgba(255, 159, 64, 1)',
 							],
 							borderWidth: 1,
-						},
-						// {
-						//   label: 'Quantity',
-						//   data: [47, 52, 67, 58, 9, 50],
-						//   backgroundColor: 'orange',
-						//   borderColor: 'red',
-						// },
+						}
 					],
 				}}
 				height={400}
@@ -56,9 +51,12 @@ defaults.global.legend.position = 'bottom';
 						],
 					},
 					legend: {
-						labels: {
-							fontSize: 25,
-						},
+						display: false
+					},
+					title: {
+						display: true,
+						text: 'Диаграмма',
+						fontSize: 25,
 					},
 				}}
 			/>
